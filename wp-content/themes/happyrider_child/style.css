@@ -1,0 +1,19 @@
+@charset 'utf-8';
+/*
+ Theme Name: Hardy Stud
+ Theme URI: http://hardystud.com/
+ Description:  Hardy Stud - We are proud to offer you skilled instruction on beautiful horses and ponies that are fit and a joy to ride.
+ Author:       Legibra
+ Author URI:   http://legibra.com
+ Template:     happyrider
+ Version:      0.0.1
+ Tags:         horse, learning
+ Text Domain:  hardystud
+*/
+
+
+@import url("../happyrider/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

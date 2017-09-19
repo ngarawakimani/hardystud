@@ -1,0 +1,14 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wbc_name_from_reservation" />
+        <key name="wbc_redirect_booking_path" />
+        <key name="wbc_redirect_cancel_path" />
+        <key name="wbc_terms_label" />
+        <key name="wbc_terms_link" />
+        <key name="wbc_form_text" />
+        <key name="wbc_registration_text" />
+        <key name="wbc_redirect_confirmation_path" />
+    </admin-texts>   
+</wpml-config>
+
+
