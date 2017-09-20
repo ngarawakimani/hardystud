@@ -3,7 +3,7 @@ Contributors: yani.iliev, bangelov, pimjitsawang
 Tags: move, transfer, copy, migrate, backup, clone, restore, db migration, wordpress migration, website migration, database export, database import, apoyo, sauvegarde, di riserva, バックアップ
 Requires at least: 3.3
 Tested up to: 4.8
-Stable tag: 6.57
+Stable tag: 6.58
 License: GPLv2 or later
 
 Move, transfer, copy, migrate, and backup a site with 1-click. Quick, easy, and reliable.
@@ -93,6 +93,12 @@ Alternatively you can download the plugin using the download button on this page
 3. Plugin Menu
 
 == Changelog ==
+= 6.58 =
+**Fixed**
+
+* Remove WP CLI commands on PHP 5.2 and below
+* Issue with files on export
+
 = 6.57 =
 **Added**
 

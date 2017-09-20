@@ -17,3 +17,27 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+#menu_2of3 .top_panel_middle {
+    background-color: inherit;
+}
+#menu_2of3 .logo{
+	width: 200px;
+}
+#menu_2of3 .menu_main_wrap {
+    text-align: initial;
+    float: initial;
+}
+/**  1. Header **/	
+	.top_panel_top,
+	.logo_slogan{
+		display: none;
+	}
+
+/**  2. Menu **/
+	.btn2{
+    	display:none;
+    }
+    .menu_2{
+    	display: none;
+    }
