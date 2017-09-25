@@ -1719,14 +1719,14 @@ margin-top: -0.35em;
 .responsive_menu .top_panel_style_5 .contact_logo,
 .responsive_menu .top_panel_style_6 .contact_logo,
 .responsive_menu .top_panel_style_7 .contact_logo {
-	width: 30% !important;
+	width: 30% ;
 }
 .responsive_menu .top_panel_style_3 .menu_main_wrap,
 .responsive_menu .top_panel_style_4 .menu_main_wrap,
 .responsive_menu .top_panel_style_5 .menu_main_wrap,
 .responsive_menu .top_panel_style_6 .menu_main_wrap,
 .responsive_menu .top_panel_style_7 .menu_main_wrap {
-	width: 100% !important;
+	width: 100% ;
 	position:static;
 }
 .responsive_menu .top_panel_style_3 .menu_main_responsive_button,

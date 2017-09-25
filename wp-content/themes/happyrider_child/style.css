@@ -18,26 +18,134 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-#menu_2of3 .top_panel_middle {
-    background-color: inherit;
+.scheme_original .top_panel_middle {
+    background-color: transparent !important;
 }
+
+.column-1_3.contact_logo,
 #menu_2of3 .logo{
 	width: 200px;
+    margin: 0px;
 }
-#menu_2of3 .menu_main_wrap {
-    text-align: initial;
-    float: initial;
+
+.top_panel_wrap .logo_fixed{
+    max-height: 100px;
+}
+
+
+.logo_main,
+.logo_fixed,
+.top_panel_middle .menu_main_nav_area,
+.menu_show .top_panel_middle .search_wrap{
+    margin: 0px !important;
+}
+.menu_show .top_panel_middle .search_wrap{
+    top: 12px;
 }
 /**  1. Header **/	
-	.top_panel_top,
-	.logo_slogan{
-		display: none;
-	}
+.top_panel_top,
+.logo_slogan{
+	display: none;
+}
 
 /**  2. Menu **/
-	.btn2{
-    	display:none;
-    }
-    .menu_2{
-    	display: none;
-    }
+.btn2{
+	display:none;
+    color: #fff; cursor: pointer; margin: 15px 50px; position: relative; top: 12px;
+}
+.menu_2{
+	display: none;
+    background-color: rgba(25, 14, 4, 0.75);
+    padding: 15px 50px; 
+    color: #fff;
+}
+.btn1{
+    color: #fff; cursor: pointer; margin: 15px 50px; position: relative; top: 12px;
+}
+.float_menu_md_6_2{
+    position: absolute; top: 0px; right: 0px;
+}
+.logo_2{
+    padding: 15px 50px; color: #fff;
+}
+
+.menu_main_nav > li > a {
+    padding: 10px 0 !important;
+    margin: 0 1.5em;
+}
+.top_panel_middle .menu_main_wrap {
+    text-align: right;
+    float: initial;
+   /* top: 22px;*/
+}
+
+.menu_main_nav > li > ul {
+    top: 3.8em !important;
+}
+
+.page_content_wrap {
+    padding: 0px;
+}
+
+.esg-grid .mainul li{ 
+    width: 340px !important;
+}
+
+.custom_contact_style .contact_info h5{
+    padding-bottom: 0px !important;
+    margin-top: 15px !important;
+}
+.custom_contact_style .contact_info .contact_email,
+.custom_contact_style .contact_info .contact_phone {
+    margin-top: 15px !important;
+}
+
+.custom_contact_style .contact_info{
+    background: rgba(255, 255, 255, 0.88);
+}
+
+.top_panel_fixed .top_panel_wrap{
+   background-color: rgba(25, 14, 4, 0.75);
+}
+.admin-bar.top_panel_fixed .top_panel_wrap {
+    top: 0px;
+}
+.menu_main_nav > li.menu-item-has-children > a:after{
+    right: 0px;
+}
+
+.scheme_original .page_wrap{
+    background-color: inherit !important;
+}
+
+.search_field{
+    padding-bottom: 30px !important;
+}
+
+#home-1, #contactus{
+    background-color: #fcfcfc !important;
+}
+
+
+.custom_contact_style .contact_info{
+   background: #fcfcfc;
+}
+
+p, .sc_dropcaps{
+    font-weight: 300 !important;
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9C5411;
+  outline: 1px solid slategrey;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}

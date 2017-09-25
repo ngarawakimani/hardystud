@@ -157,7 +157,7 @@ Apple iPod Touch (5th generation)
 		}
 
 		#home-1 .sc_content .sc_image  img{
-			max-width: none;
+			/*max-width: none;*/
 		}
 
 		#home-1 .sc_content .sc_image{
@@ -189,7 +189,7 @@ Apple iPod Touch (5th generation)
 
 		p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 		.footer_wrap.widget_area .post_item .post_title,
-		.footer_wrap.widget_area ul li{font-size: 1em !important;
+		.footer_wrap.widget_area ul li{font-size: 1em;
 		}
 
 		.menu_main_nav > li > ul{
@@ -256,7 +256,7 @@ Apple iPod Touch (5th generation)
 		}
 
 		#home-1 .sc_content .sc_image  img{
-			max-width: none;
+			/*max-width: none;*/
 		}
 
 		.booking_month_name{
@@ -290,7 +290,7 @@ Apple iPod Touch (5th generation)
 		p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 		.footer_wrap.widget_area .post_item .post_title,
 		.footer_wrap.widget_area ul li{
-			font-size: 1em !important;
+			font-size: 1em;
 		}
 
 		.menu_main_nav > li > ul{
@@ -531,7 +531,7 @@ Samsung Galaxy
 	}
 
 	#home-1 .sc_content .sc_image  img{
-		max-width: none;
+		/*max-width: none;*/
 	}
 
 	.top_panel_top_socials{
@@ -793,7 +793,7 @@ Samsung Galaxy
 	p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 	.footer_wrap.widget_area .post_item .post_title,
 	.footer_wrap.widget_area ul li{
-		font-size: 1em !important;
+		font-size: 1em;
 	}
 
 	.tp-caption.excerpt, .excerpt{
@@ -829,7 +829,7 @@ Samsung Galaxy
 	}
 
 	.search_wrap ~.menu_main_responsive{
-		margin-top: 10px !important;
+		margin-top: 10px;
 	}
 
 }
@@ -848,7 +848,7 @@ Samsung Galaxy
 	}
 
 	#home-1 .sc_content .sc_image  img{
-		max-width: none;
+		/*max-width: none;*/
 	}
 
 	.top_panel_top_socials{
@@ -1037,7 +1037,7 @@ Samsung Galaxy
 	p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 	.footer_wrap.widget_area .post_item .post_title,
 	.footer_wrap.widget_area ul li{
-		font-size: 1.1em !important;
+		font-size: 1.1em;
 	}
 
 	.sc_services_item .sc_services_item_description p{
@@ -1084,7 +1084,7 @@ Samsung Galaxy
 	}
 
 	.search_wrap ~.menu_main_responsive{
-		margin-top: 10px !important;
+		margin-top: 10px;
 	}
 
 
@@ -1122,7 +1122,7 @@ Samsung Galaxy
 	}
 
 	.responsive_menu .top_panel_style_3 .menu_main_wrap, .responsive_menu .top_panel_style_4 .menu_main_wrap, .responsive_menu .top_panel_style_5 .menu_main_wrap, .responsive_menu .top_panel_style_6 .menu_main_wrap, .responsive_menu .top_panel_style_7 .menu_main_wrap{
-		width: 70% !important;
+		width: 70%;
 	}
 	.responsive_menu .top_panel_style_3 .menu_main_responsive_button, .responsive_menu .top_panel_style_4 .menu_main_responsive_button{
 		position: relative;
@@ -1182,7 +1182,7 @@ Samsung Galaxy
 	}
 
 	.search_wrap ~.menu_main_responsive{
-		margin-top: 10px !important;
+		margin-top: 10px;
 	}
 
 	blockquote.style-1,
@@ -1408,7 +1408,7 @@ Samsung Galaxy
 	p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 	.footer_wrap.widget_area .post_item .post_title,
 	.footer_wrap.widget_area ul li{
-		font-size: 1.1em !important;
+		font-size: 1.1em ;
 	}
 
 	.sc_services_item .sc_services_item_description p{
@@ -2281,7 +2281,7 @@ Very common low res
 	}
 
 	.responsive_menu .top_panel_style_3 .contact_logo{
-		width: 40% !important;
+		width: 40%;
 	}
 
 	.top_panel_middle .logo{
@@ -2295,7 +2295,7 @@ Very common low res
 	}
 
 	.responsive_menu .top_panel_style_3 .menu_main_wrap{
-		width: 60% !important;
+		width: 60%;
 	}
 
 	.responsive_menu .top_panel_middle .menu_main_responsive_button{
@@ -2665,7 +2665,7 @@ Very common low res
 	p,.sc_team_style_team-4 .sc_team_item_avatar .sc_team_item_hover .sc_team_item_info,
 	.footer_wrap.widget_area .post_item .post_title,
 	.footer_wrap.widget_area ul li{
-		font-size: 1em !important;
+		font-size: 1em;
 	}
 
 	.tp-caption.excerpt, .excerpt{
@@ -2709,7 +2709,7 @@ Very common low res
 	}
 
 	.search_wrap ~.menu_main_responsive{
-		margin-top: 10px !important;
+		margin-top: 10px;
 	}
 
 }

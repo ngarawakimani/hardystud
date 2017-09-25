@@ -86,10 +86,10 @@ if ( !function_exists( 'happyrider_template_header_3_output' ) ) {
 			</div>
 
 			<div class="float_menu_container" id="menu_2of3"> <!-- style="padding: 0px 30px; margin: 35px;" -->
-				<div class="float_menu_row" style="display: flex;">
-					<div class="float_menu_md_6" style="width: 50%; text-align: left;">
+				<div class="float_menu_row"><!-- display: flex; -->
+					<div class="float_menu_md_6"><!-- width: 50%; text-align: left; -->
 						
-						<div class="logo_2" style="margin: 35px; color: #fff;"> 
+						<div class="logo_2"> 
 							<?php 
 								$custom_logo_id = get_theme_mod( 'custom_logo' );
 								$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
@@ -101,15 +101,15 @@ if ( !function_exists( 'happyrider_template_header_3_output' ) ) {
 							?>
 						</div>
 
-						<div class="menu_2" style="margin-left: 35px; color: #fff;">
+						<div class="menu_2">
 							
 							<div class="top_panel_middle" <?php echo ($header_css); ?>>
-								<div class="content_wrap">
+								<div class=""><!-- content_wrap -->
 									<div class="columns_wrap columns_fluid">
-										<div class="column-1_3 contact_logo">
+										<div class="column-1_3 contact_logo" style="">
 											<?php require_once( happyrider_get_file_dir('templates/headers/_parts/logo.php') ); ?>
 										</div>
-										<div class="column-3_4 menu_main_wrap">
+										<div class="column-3_5 menu_main_wrap">
 											<a href="#" class="menu_main_responsive_button icon-menu"></a>
 											<?php
 											
@@ -140,12 +140,15 @@ if ( !function_exists( 'happyrider_template_header_3_output' ) ) {
 							</div>
 
 						</div>
+					
+					<div class="float_menu_md_6_2"><!-- width: 50%; -->
+						<div class="btn1">Menu <i class="fa fa-bars" aria-hidden="true"></i></div>
+						<div class="btn2">Close <i class="fa fa-times" aria-hidden="true"></i></div>
 					</div>
 
-					<div class="float_menu_md_6" style="width: 50%; text-align: right;">
-						<div class="btn1" style="color: #fff; cursor: pointer; padding-top: 0px; margin: 35px;">Menu <i class="fa fa-bars" aria-hidden="true"></i></div>
-						<div class="btn2" style="color: #fff; cursor: pointer; padding-top: 40px; margin-right: 35px;">Close <i class="fa fa-times" aria-hidden="true"></i></div>
 					</div>
+
+					
 				</div>
 			</div>
 		</header>

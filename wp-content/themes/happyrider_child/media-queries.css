@@ -1,0 +1,183 @@
+/**
+ * @author    Legibra (Jackson.Chege)
+ * @date     From 08.30.17
+ *
+ * Default media query for Bootstrap.
+ */
+
+
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {
+
+	p, .sc_dropcaps{
+	    font-size: 1em !important;
+	}
+	#about_us_page, #leadership_with_horses,#school_groups,#Day_Excursion, #booking_calendar,#gallery,#contactus{
+		margin-top: 15px !important;
+	}
+	#leadership_with_horses h5, #school_group h5, #Day_Excursion h5, #booking_calendar h5, #about_us_page h5, #gallery h5, #contactus h5{
+		font-size: 1.7em !important;
+	}
+
+	/*start of MENU*/
+		.menu_2{
+		    padding: 15px !important;
+			display: block !important;
+		    background-color: #603813 !important;
+		}
+		.logo_2, .float_menu_md_6_2 , .menu_show .top_panel_middle .search_wrap{
+			display: none !important;
+		}
+
+		.responsive_menu .top_panel_style_3 .contact_logo{
+		    width: 30% !important;
+		}
+		.responsive_menu .top_panel_style_3 .menu_main_wrap, .responsive_menu .top_panel_style_4 .menu_main_wrap, .responsive_menu .top_panel_style_5 .menu_main_wrap, .responsive_menu .top_panel_style_6 .menu_main_wrap, .responsive_menu .top_panel_style_7 .menu_main_wrap {
+		    width: 68% !important;
+		}
+		.responsive_menu .top_panel_middle .menu_main_responsive_button{
+		    position: inherit !important;
+		    color: #fff;
+		}
+		.menu_main_responsive_button:before{
+			margin: 0px !important;
+		}
+		.search_wrap ~.menu_main_responsive{
+		    margin-top: 5em !important;
+		}
+
+		.scheme_original .menu_main_responsive li, .scheme_original .menu_main_responsive a {
+		    color: #ffffff !important;
+		}
+
+		.top_panel_wrap .menu_main_wrap > ul.menu_main_responsive {
+		    width: initial !important;
+		    margin-left: -105px !important;
+		}
+		.scheme_original .menu_main_responsive a:hover {
+		    background-color: #000000;
+		}
+		.scheme_original .menu_main_responsive_button:hover{
+		    color: #d6d6d6 !important;
+		}
+		.scheme_original .menu_main_responsive a:hover {
+		    background-color: #000000 !important;
+		}
+	/*End of MENU*/
+
+	/*Start of About us*/
+		#home-1 .sc_content .sc_image {
+		    width: 200px !important;
+		}
+
+	/*End of About us*/
+
+
+	/*Start of What we do*/
+		#whatwedo{
+		    margin-bottom: -7.4em !important;
+		}
+		#whatwedo .row > [class*="column-"].column_padding_bottom, #whatwedo .columns_wrap > [class*="column-"].column_padding_bottom {
+		    padding-bottom: 45px;
+		}
+	/*End of What we do*/
+
+	#gallery_grid{
+	    display: none;
+	}
+
+	/*Start of FOOTER*/
+		.copyright_style_socials .sc_socials {
+		    display: inherit;
+		    text-align: center;
+		}
+
+	/*End of FOOTER*/
+
+}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) { 
+	/*start of MENU*/
+		.menu_2{
+		    padding: 15px !important;
+			display: block !important;
+		    background-color: #603813 !important;
+		}
+		.logo_2, .float_menu_md_6_2 , .menu_show .top_panel_middle .search_wrap{
+			display: none !important;
+		}
+
+		.responsive_menu .top_panel_style_3 .contact_logo{
+		    width: 30% !important;
+		}
+		.responsive_menu .top_panel_style_3 .menu_main_wrap, .responsive_menu .top_panel_style_4 .menu_main_wrap, .responsive_menu .top_panel_style_5 .menu_main_wrap, .responsive_menu .top_panel_style_6 .menu_main_wrap, .responsive_menu .top_panel_style_7 .menu_main_wrap {
+		    width: 68% !important;
+		}
+		.responsive_menu .top_panel_middle .menu_main_responsive_button{
+		    position: inherit !important;
+		    color: #fff;
+		}
+		.menu_main_responsive_button:before{
+			margin: 0px !important;
+		}
+		.search_wrap ~.menu_main_responsive{
+		    margin-top: 5em !important;
+		}
+
+		.scheme_original .menu_main_responsive li, .scheme_original .menu_main_responsive a {
+		    color: #ffffff !important;
+		}
+
+		.top_panel_wrap .menu_main_wrap > ul.menu_main_responsive {
+		    width: initial !important;
+		    margin-left: -105px !important;
+		}
+		.scheme_original .menu_main_responsive a:hover {
+		    background-color: #000000;
+		}
+		.scheme_original .menu_main_responsive_button:hover{
+		    color: #d6d6d6 !important;
+		}
+		.scheme_original .menu_main_responsive a:hover {
+		    background-color: #000000 !important;
+		}
+	/*End of MENU*/
+
+	.top_panel_wrap .menu_main_wrap > ul.menu_main_responsive {
+	    margin-left: -220px !important;
+	}
+
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	p, .sc_dropcaps {
+	    font-size: 16px !important;
+	}
+}
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {
+	#about-us .menu_2,
+	#school-groups .menu_2,
+	#day-excursion .menu_2,
+	#booking-calendar .menu_2,
+	#gallery .menu_2,
+	#contact-us .menu_2,
+	#leadership-with-horses .menu_2{
+	    padding: 15px !important;
+		display: block !important;
+	    background-color: #603813 !important;
+	}
+
+	#about-us .logo_2,
+	#school-groups .logo_2,
+	#day-excursion .logo_2,
+	#booking-calendar .logo_2,
+	#gallery .logo_2,
+	#contact-us .logo_2,
+	#leadership-with-horses .logo_2{
+		display: none !important;
+	}
+}

@@ -141,7 +141,7 @@ $video_bg_show  = happyrider_get_custom_option('show_video_bg')=='yes' && (happy
 		}
 		?>
 
-		<div class="page_wrap">
+		<div id="<?php echo( basename(get_permalink()) ); ?>" class="page_wrap" >
 
 			<?php
 			// Top panel 'Above' or 'Over'
