@@ -15,6 +15,9 @@
 	#about_us_page, #leadership_with_horses,#school_groups,#Day_Excursion, #booking_calendar,#gallery,#contactus{
 		margin-top: 15px !important;
 	}
+	#contactus{
+		padding-top: 45px !important;
+	}
 	#leadership_with_horses h5, #school_group h5, #Day_Excursion h5, #booking_calendar h5, #about_us_page h5, #gallery h5, #contactus h5{
 		font-size: 1.7em !important;
 	}
@@ -81,7 +84,6 @@
 		    padding-bottom: 45px;
 		}
 	/*End of What we do*/
-
 	#gallery_grid{
 	    display: none;
 	}
@@ -93,6 +95,25 @@
 		}
 
 	/*End of FOOTER*/
+
+	.tribe-events-list .content-event-wrap {
+	    width: 100% !important;
+	}
+
+	.tribe-events-list .tribe-events-loop .tribe-events-event-image {
+	    width: 100%;
+	}
+
+	.sc_contact_form .sc_contact_form_button {
+	    text-align: left !important;
+	}
+	.contactus_space{
+		height: 0px !important;
+	}
+	.contactus_space,
+	.contactus_details{
+	    padding-bottom: 20px !important;
+	}
 
 }
 
@@ -165,7 +186,12 @@
 	#booking-calendar .menu_2,
 	#gallery .menu_2,
 	#contact-us .menu_2,
-	#leadership-with-horses .menu_2{
+	#leadership-with-horses .menu_2,
+	#benefits-of-horse-riding .menu_2,
+	.post-type-archive-tribe_events .menu_2,
+	.single-tribe_events .menu_2,
+	.search-no-results .menu_2,
+	.search-results .menu_2{
 	    padding: 15px !important;
 		display: block !important;
 	    background-color: #603813 !important;
@@ -177,7 +203,22 @@
 	#booking-calendar .logo_2,
 	#gallery .logo_2,
 	#contact-us .logo_2,
-	#leadership-with-horses .logo_2{
+	#leadership-with-horses .logo_2,
+	#benefits-of-horse-riding .logo_2,
+	.post-type-archive-tribe_events .logo_2,
+	.single-tribe_events .logo_2,
+	.search-no-results .logo_2,
+	.search-results .logo_2{
 		display: none !important;
 	}
+
+	.post-type-archive-tribe_events .page_content_wrap,
+	.single-tribe_events .page_content_wrap,
+	.search-no-results .page_content_wrap,
+	.search-results .page_content_wrap{
+	    top: 120px !important;
+	    position: relative;
+        margin-bottom: 160px;
+	}
+
 }

@@ -128,12 +128,58 @@
 
 
 .custom_contact_style .contact_info{
-   background: #fcfcfc;
+   background: rgba(252, 252, 252, 0.88) !important;
 }
 
 p, .sc_dropcaps{
     font-weight: 300 !important;
     font-size: 16px;
+}
+
+.scheme_original .menu_main_wrap .search_wrap .search_results.widget_area .post_item a {
+    color: #9c5411;
+}
+
+.tribe-events-list .content-event-wrap {
+    width: 60%;
+}
+
+.booking_padding_10 {
+    padding-left: 0px !important;
+    background-color: rgba(96, 56, 19, 0) !important;
+}
+
+.booking_clear_custom {
+    border-radius: 2px;
+}
+
+.booking_padding_10 {
+    padding: 0px !important;
+}
+
+
+#booking_container .booking_field_input_custom {
+    background-color: #ffffff !important;
+    color: #9c5411 !important;
+    font-weight: 100;
+    border: 1px solid !important;
+    border-radius: 2px;
+}
+
+.booking_mark_fff {
+    color: #9c5411 !important;
+}
+
+#booking_submit_button {
+    width: 8em
+    line-height: unset !important;
+    border: 1px solid !important;
+    border-radius: 2px;
+}
+
+.single-tribe_events .tribe-events-event-meta,
+h3.event-desc {
+    margin-top: 0rem !important;
 }
 
 body::-webkit-scrollbar {
