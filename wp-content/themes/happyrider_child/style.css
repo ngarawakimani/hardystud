@@ -186,6 +186,22 @@ h3.event-desc {
     margin-top: -120px;
 }
 
+.scheme_original .copyright_wrap .sc_socials.sc_socials_type_icons a {
+    color: #ffffff;
+}
+.sc_socials.sc_socials_type_icons a.social_facebook:hover {
+    border-color: #2074cb;
+    color: #2074cb;
+}
+.sc_socials.sc_socials_type_icons a.social_twitter:hover {
+    border-color: #51c2f6;
+    color: #51c2f6;
+}
+.sc_socials.sc_socials_type_icons a.social_instagramm:hover {
+    border-color: #fa6a36;
+    color: #fa6a36;
+}
+
 body::-webkit-scrollbar {
     width: 0.6em;
 }

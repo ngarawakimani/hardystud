@@ -120,9 +120,7 @@
 	.aboutus_style1{
 	    bottom: 0px !important; 
 	}
-	.fullwidthbanner-container .fullwidthabanner {
-	    height: 100vh !important;
-	}
+
 }
 
 /* Small Devices, .visible-sm-* */
@@ -220,6 +218,30 @@
 		display: none !important;
 	}
 
+	#about-us .float_menu_md_6_2,
+	#school-groups .float_menu_md_6_2,
+	#day-excursion .float_menu_md_6_2,
+	#booking-calendar .float_menu_md_6_2,
+	#gallery .float_menu_md_6_2,
+	#contact-us .float_menu_md_6_2,
+	#leadership-with-horse .float_menu_md_6_2,
+	#benefits-of-horse-riding .float_menu_md_6_2,
+	#leadership-with-horses .float_menu_md_6_2,
+	.post-type-archive-tribe_events .float_menu_md_6_2,
+	.single-tribe_events .float_menu_md_6_2,
+	.search-no-results .float_menu_md_6_2,
+	.search-results .float_menu_md_6_2 {
+	    display: none !important;
+	}
+
+	.top_panel_middle .menu_main_wrap {
+		float: right !important;
+	    margin-right: 30px !important; 
+	}
+	header .search_wrap .search_submit{
+		top: 4px !important;
+	}
+
 	.post-type-archive-tribe_events .page_content_wrap,
 	.single-tribe_events .page_content_wrap,
 	.search-no-results .page_content_wrap,
@@ -232,6 +254,9 @@
 	.aboutus_style1{
 	    bottom: -31px !important;
 	    position: relative !important;
+	}
+	.esgbox-overlay-fixed {
+	    z-index: 999999 !important;
 	}
 
 }
