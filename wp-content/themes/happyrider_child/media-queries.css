@@ -178,7 +178,7 @@
 }
 
 /* Medium Devices, .visible-md-* */
-@media (min-width: 992px) and (max-width: 1199px) { 
+@media (min-width: 992px) and (max-width: 1199px) {
 	p, .sc_dropcaps {
 	    font-size: 16px !important;
 	}
@@ -234,10 +234,23 @@
 	    display: none !important;
 	}
 
-	.top_panel_middle .menu_main_wrap {
+	#about-us .top_panel_middle .menu_main_wrap,
+	#school-groups .top_panel_middle .menu_main_wrap,
+	#day-excursion .top_panel_middle .menu_main_wrap,
+	#booking-calendar .top_panel_middle .menu_main_wrap,
+	#gallery .top_panel_middle .menu_main_wrap,
+	#contact-us .top_panel_middle .menu_main_wrap,
+	#leadership-with-horse .top_panel_middle .menu_main_wrap,
+	#benefits-of-horse-riding .top_panel_middle .menu_main_wrap,
+	#leadership-with-horses .top_panel_middle .menu_main_wrap,
+	.post-type-archive-tribe_events .top_panel_middle .menu_main_wrap,
+	.single-tribe_events .top_panel_middle .menu_main_wrap,
+	.search-no-results .top_panel_middle .menu_main_wrap,
+	.search-results .top_panel_middle .menu_main_wrap{
 		float: right !important;
 	    margin-right: 30px !important; 
 	}
+
 	header .search_wrap .search_submit{
 		top: 4px !important;
 	}

@@ -187,19 +187,19 @@ h3.event-desc {
 }
 
 .scheme_original .copyright_wrap .sc_socials.sc_socials_type_icons a {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .sc_socials.sc_socials_type_icons a.social_facebook:hover {
-    border-color: #2074cb;
-    color: #2074cb;
+    border-color: #2074cb !important;
+    color: #2074cb !important;
 }
 .sc_socials.sc_socials_type_icons a.social_twitter:hover {
-    border-color: #51c2f6;
-    color: #51c2f6;
+    border-color: #51c2f6 !important;
+    color: #51c2f6 !important;
 }
 .sc_socials.sc_socials_type_icons a.social_instagramm:hover {
-    border-color: #fa6a36;
-    color: #fa6a36;
+    border-color: #fa6a36 !important;
+    color: #fa6a36 !important;
 }
 
 body::-webkit-scrollbar {
