@@ -202,6 +202,23 @@ h3.event-desc {
     color: #fa6a36 !important;
 }
 
+.sc_socials.sc_socials_size_tiny .social_icons{
+    color: #fff;
+}
+
+.social_facebook:hover {
+    border-color: #2074cb !important;
+    color: #2074cb !important;
+}
+.social_twitter:hover {
+    border-color: #51c2f6 !important;
+    color: #51c2f6 !important;
+}
+.social_instagramm:hover {
+    border-color: #fa6a36 !important;
+    color: #fa6a36 !important;
+}
+
 body::-webkit-scrollbar {
     width: 0.6em;
 }
